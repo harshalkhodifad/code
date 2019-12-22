@@ -12,3 +12,8 @@ $ gcc HelloWorld.c -o Output              # Linker -- puts function addresses + 
 
 # Copy file in clipboard
 $ xclip -sel c < filepath
+
+# Mount Exfat in Ubuntu
+$ sudo add-apt-repository universe
+$ sudo apt update
+$ sudo apt install exfat-fuse exfat-utils
